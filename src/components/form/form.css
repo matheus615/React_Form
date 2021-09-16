@@ -560,15 +560,6 @@
   background-position: center;  
 }
 
-.Boxhidden__2,
-.Boxhidden__3,
-.Boxhidden__5,
-.Boxhidden__6,
-.Boxhidden__7,
-.Boxhidden__8 {
-  display: none;
-}
-
 .danger__para {
   color: rgb(224, 3, 3) !important;
   margin-top: 0.5rem;
