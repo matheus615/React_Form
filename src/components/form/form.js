@@ -3,6 +3,7 @@ import "./form.css";
 import Pay from "../../assets/images/pay.webp";
 import { NavLink } from "react-router-dom";
 
+
 const Form = () => {
   const clickedMe8 = () => {
     let targetBox = document.querySelector(".targetBox_8");
