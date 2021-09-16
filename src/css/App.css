@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Ubuntu:wght@400;500;700&display=swap");
+/* ALL THE MAJOR STYLES ARE HERE */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #fcdb99;
+  --heading--color: #2e2e2e;
+  --icon-color: #594d36;
+}
+
+.MAIN__section {
+  background-color: var(--main-color);
+  min-height: 100vh;
+  padding: 4rem 0;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}

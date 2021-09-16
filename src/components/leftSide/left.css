@@ -1,0 +1,55 @@
+.leftCol {
+  /* border: 10px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.leftCol .leftCol__inner__1 h1 {
+  color: var(--heading--color);
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.leftCol .leftCol__inner__1 .inner__iconBox {
+  display: flex;
+  gap: 1rem;
+}
+
+.leftCol .leftCol__inner__1 .iconsBoxes .iconBox {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.leftCol .leftCol__inner__1 .iconsBoxes .iconBox .tick__icon {
+  background-color: #594d36;
+}
+
+.leftCol .leftCol__inner__1 .iconsBoxes .iconBox p {
+  font-size: 0.8rem;
+  position: relative;
+  top: 0.5rem;
+  color: #2e2e2e;
+  font-weight: 600;
+}
+
+.leftCol .leftCol__inner__2 h6 {
+  font-weight: 700;
+  color: #2e2e2e;
+}
+
+.leftCol .leftCol__inner__2 p {
+  color: #2e2e2e;
+  font-size: 1.2rem;
+}
+
+.leftCol .leftCol__inner__2 .name__ratingBox {
+  display: flex;
+  gap: 3rem;
+}
+
+.leftCol .leftCol__inner__2 .starBox {
+  display: flex;
+  gap: 0.2rem;
+}

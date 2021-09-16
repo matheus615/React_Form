@@ -1,0 +1,85 @@
+.RightCol_payment .rightColInner_pay {
+  /* width: 75%; */
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding-bottom: 0;
+}
+
+.paypal___btn {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6rem 1rem;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 2px solid #cecece;
+  text-align: center;
+}
+.paypal___btn:hover {
+  transform: scale(1.05);
+}
+
+.paypal___btn p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #000;
+  position: relative;
+  top: 0.2rem;
+}
+
+.paypal__btn .last_btn_btn {
+  border: none;
+  background-color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 3rem;
+}
+
+.payfont {
+  font-weight: 600;
+  color: gray;
+  padding-top: 0.6rem;
+}
+.howpay {
+  padding-top: 0.3rem;
+}
+.paymentImage {
+  text-align: center;
+}
+.paypal_img {
+  width: 20%;
+}
+
+.pay___btn {
+  background-color: #065af9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6rem 1rem;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.pay___btn:hover {
+  transform: scale(1.05);
+}
+
+.pay___btn p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  top: 0.4rem;
+}
+
+.pay__btn .last_btn_btn {
+  border: none;
+  background-color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 3rem;
+  color: #065af9;
+}
