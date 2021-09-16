@@ -4,7 +4,6 @@ import Img1 from "../../assets/images/bg.png";
 
 const Left = () => {
   return (
-    <>
       <div className="col col-lg-4 col-md-5 col-sm-12 leftCol">
         <div className="leftCol__inner__1">
           <h1>Standard $25 </h1>
@@ -81,7 +80,6 @@ const Left = () => {
           <img src={Img1} className="img-fluid" alt="bg" />
         </div>
       </div>
-    </>
   );
 };
 

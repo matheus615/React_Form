@@ -4,16 +4,14 @@ import Form from "./components/form/form";
 
 const Formlayout = () => {
   return (
-    <>
-      <div className="MAIN__section">
-        <div className="container">
-          <div className="row">
-            <Left />
-            <Form />
-          </div>
+    <div className="MAIN__section">
+      <div className="container">
+        <div className="row">
+          <Left />
+          <Form />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
